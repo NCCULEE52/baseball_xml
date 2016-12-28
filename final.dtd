@@ -1,0 +1,33 @@
+<!-- Note that the transformation only covers a common subset of XML Schema.
+     Unknown elements will be ignored. -->
+
+
+<!-- ELEMENT Baseball -->
+<!--
+<xsl:include href="final.xsl"/>
+-->
+<!ELEMENT Baseball (
+
+<!-- ELEMENT player -->
+<!ELEMENT player (
+
+<!-- ELEMENT league -->
+<!ELEMENT league ( #PCDATA ) > |
+
+<!-- ELEMENT name -->
+<!ELEMENT name ( #PCDATA ) > |
+
+<!-- ELEMENT price -->
+<!ELEMENT price ( #PCDATA ) > |
+
+<!-- ELEMENT num -->
+<!ELEMENT num ( #PCDATA ) > |
+
+<!-- ELEMENT team -->
+<!ELEMENT team ( #PCDATA ) > |
+
+<!-- ELEMENT description -->
+<!ELEMENT description ( #PCDATA ) > |
+
+<!-- ELEMENT country -->
+<!ELEMENT country ( #PCDATA ) > )* > ) >

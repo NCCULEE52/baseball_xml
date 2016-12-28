@@ -1,0 +1,28 @@
+ <?xml version="1.0" encoding="ISO-8859-1"?>
+    <?xml-stylesheet href="aperture_event_page.xsl" type="text/xsl"?>
+    <listings
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="aperture_venues.xsd">
+
+        <venue id="apv_01">
+            <image>/images/apv_01.png</image>
+            <other elements></other elements>
+            ...
+            <more elements>
+                <elements></elements>
+                ...
+            </more elements>
+        </venue>
+
+        <venue id="apv_02">
+            #repeat#
+        </venue>
+
+        <venue id="apv_03">
+            #repeat#
+        </venue>
+
+        <venue id="apv_04">
+            #repeat#
+        </venue>
+    </listings/>

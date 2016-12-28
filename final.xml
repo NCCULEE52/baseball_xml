@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="final.xsl"?>
+<!-- <xsl:include href="final.xsl"/> -->
+<!-- DTD -->
+<!DOCTYPE Baseball [
+<!ELEMENT player
+(league,name,price,num,team,description,country)>
+<!ELEMENT league (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT num (#PCDATA)>
+<!ELEMENT team (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+]>
+
+<!-- DTD -->
+
+<Baseball>
+
+	<player>
+		<league>CPBL</league>
+		<name>Chin Feng Chen</name>
+		<price>$5.9</price>
+		<num>52</num>
+		<team>Lamigo Monkeys</team>
+		<description>1st MLB player from Taiwan</description>
+		<country>Taiwan</country>
+		
+	</player>
+	<player>
+		<name>Ichiro Suzuki</name>
+		<league>MLB</league>
+		<price>$10.95</price>
+		<num>51</num>
+		<team>Miami Marlins</team>
+		<description>Nippon No.1 hitter</description>
+		<country>Japan</country>	
+	</player>
+
+	<player>
+		<name>Chien Ming Wang</name>
+		<league>MLB</league>
+		<price>$7.95</price>
+		<num>40</num>
+		<team>Kansas Royals</team>
+		<description>19Wins in MLB</description>
+		<country>Taiwan</country>	
+	</player>
+
+	<player>
+		<name>Otani Shohei</name>
+		<league>NPB</league>
+		<price>$7.95</price>
+		<num>11</num>
+		<team>Hokkaido Nippon Ham</team>
+		<description>165KM</description>
+		<country>Japan</country>	
+	</player>
+
+	<player>
+		<name>Derek Jeter</name>
+		<league>MLB</league>
+		<num>2</num>
+		<team>New York Yankees</team>
+		<price>$15.95</price>
+		<description>New York Yankees Star</description>
+		<country>Usa</country>	
+	</player>
+	<player>
+		<name>Pong Chen Ming</name>
+		<league>CPBL</league>
+		<price>$5.95</price>
+		<team>Brother Elephants</team>
+		<num>23</num>
+		<description>Chia Chia</description>
+		<country>Taiwan</country>	
+	</player>
+	<player>
+		<name>Dae Ho Lee</name>
+		<league>MLB</league>
+		<price>$5.95</price>
+		<num>10</num>
+		<team>Seattle Mariners</team>
+		<description>Korea Slugger</description>
+		<country>Korea</country>	
+	</player>
+	<player>
+		<name>Yoh Dai Kang</name>
+		<league>NPB</league>
+		<price>$15.95</price>
+		<num>2</num>
+		<team>Yomiuri Giants</team>
+		<description>Taiwan Baseball Star in Japan</description>
+		<country>Taiwan</country>	
+	</player>
+	<player>
+		<name>Aroldis Chapman</name>
+		<league>MLB</league>
+		<price>$25.95</price>
+		<num>54</num>
+		<team>Chicago Cubs</team>
+		<description>FireBall Man</description>
+		<country>Cuba</country>	
+	</player>
+
+	<player>
+		<league>CPBL</league>
+		<name>Zhi Sheng Lin&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</name>
+		<price>$3.9</price>
+		<num>31</num>
+		<team>Lamigo Monkeys</team>
+		<description>Taiwan Baseball slugger&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</description>
+		<country>Taiwan</country>	
+	</player>
+	<player>
+		<league>MLB</league>
+		<name>Manny Ramirez</name>
+		<price>$33.9</price>
+		<num>24</num>
+		<team>Boston Red Sox</team>
+		<description>Red Sox Star</description>
+		<country>Usa</country>	
+	</player>
+	<player>
+		<name>Seung Hwan OH </name>
+		<league>NPB</league>
+		<price>$3.85</price>
+		<num>26</num>
+		<team>Hanshin Tigers</team>
+		<description>Korea Best Closer</description>
+		<country>Korea</country>	
+	</player>
+	<player>
+		<name>Masahiro Tanaka</name>
+		<league>MLB</league>
+		<price>$20</price>
+		<num>19</num>
+		<team>New York Yankees</team>
+		<description>Japan Ace </description>
+		<country>Japan</country>	
+	</player>
+</Baseball>
+

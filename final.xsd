@@ -1,0 +1,24 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Baseball">
+    <xs:annotation>
+      <xs:documentation>&lt;xsl:include href="final.xsl"/></xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="player" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:choice maxOccurs="unbounded" minOccurs="0">
+              <xs:element type="xs:string" name="league"/>
+              <xs:element type="xs:string" name="name"/>
+              <xs:element type="xs:string" name="price"/>
+              <xs:element type="xs:byte" name="num"/>
+              <xs:element type="xs:string" name="team"/>
+              <xs:element type="xs:string" name="description"/>
+              <xs:element type="xs:string" name="country"/>
+            </xs:choice>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
